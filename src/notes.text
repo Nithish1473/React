@@ -1,0 +1,51 @@
+ ReactJs:- 
+************
+
+-Javascript is having libraries and frameworks.
+libraries:- it is a collection of codes.
+   -less set of rules
+   -ReactJs , jquery etc....
+
+frameworks:- it is a collection of libraries.
+   - more set of rules.
+   - angular , vuejs etc.....
+  
+
+important features of ReactJs:-
+*********************************
+1.ReactJs is Javascript library to build rich resuable user interface.
+2.ReactJs is faster because of "virtual box".
+3.React follows component based architecture.
+4.React follows unidirectional data flow.
+5.React follows both client-side rendering and server-side rendering.
+
+-React was introduced in 2011 by facebbok.
+-Jordan walke.
+-2013 react made as a open-source.
+-react is a free and platform-independent.
+
+
+to install react app:-
+**********************
+- install node js 
+-node -v
+
+-npm install create-react-app --globally
+-npm init react-app myapp
+
+-npx create-reacta-app myapp
+
+
+-vite react
+
+
+JSX:-
+**********
+- JSX stands for javascript and xml
+- JSX is a javascript syntax extensions used to create HTML-like markup in the react
+- actual way to create a element in react is by using a method called as ,
+      - React.createElement("tagname", {property:"value"}/null, content/children)
+      let ele = React.createElement("div",)
+        React.createElement("h1", null, "Header")
+  );
+

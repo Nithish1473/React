@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.App{
+    height: 100%;
+    background-color: red;
+
+
+}
+.Navbar{
+    height: 40%;
+    background-color: blue;
+    
+}
