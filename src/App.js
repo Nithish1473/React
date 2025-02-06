@@ -28,3 +28,49 @@
 //   )
 // }
 // export default App
+
+// ! Props
+// import React, { Component } from 'react'
+// // import CBCPropEx from './propex/CBCpropEx'
+// // import FBCpropEx from './propex/FBCpropEx'
+// import  CBCStateEx from './stateexample/CBCStateEx'
+// // import FBCStateEx from './stateexample/FBCStateEx'
+
+//  class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         {/* <CBCPropEx
+//         username="Nithish"
+//         age={21}
+//         hobbies={["watching movies","studying","travelling"]}
+//         address={{city:"kollapur",area:"MMD"}}
+//         sendFun={function(){alert("Hi Nithish Welcome")}}
+//         /> */}
+
+
+//         {/* <FBCpropEx
+//         username="kiran"
+//         isMarried={true}
+//         hobbies={["playing", "fitting","kidding"]}
+
+//         /> */}
+//         <CBCStateEx/>
+//         {/* <FBCStateEx/> */}
+//       </div>
+//     )
+//   }
+// }
+// export default App;
+
+import React from 'react'
+import CBCStateEx from './stateexample/CBCStateEx'
+
+const App = () => {
+  return (
+    <div><CBCStateEx/></div>
+  )
+}
+
+export default App
+
