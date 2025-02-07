@@ -63,14 +63,18 @@
 // }
 // export default App;
 
-import React from 'react'
-import CBCStateEx from './stateexample/CBCStateEx'
+// import React from 'react'
+// import CBCStateEx from './stateexample/CBCStateEx'
+
+import FunctionalComponent from './components/FunctionalComponent'
 
 const App = () => {
   return (
-    <div><CBCStateEx/></div>
+    <div>
+      <FunctionalComponent clgName='MRU' area='maisammaguda'/>
+
+      {/* <FBCStateEX/> */}
+    </div>
   )
 }
-
-export default App
-
+export default App;
