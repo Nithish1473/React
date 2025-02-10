@@ -108,7 +108,7 @@ Props:-
 *******
 - props is nothing but a properties similar to html attributes.
 - props is an object.
--props is immutable object
+- props is immutable object
 - props is an object used to exchange information/data from parent component to child component.
 
 
@@ -127,3 +127,19 @@ State:-
 
 class components:-
 ***********
+
+
+
+1.useState()
+2.useEffect()
+3.useContext()
+
+
+2.useEffect:-
+- it allows developers to make neccessary changes / side useEffects inside the component
+syntax:- 
+
+
+React.Fragment:-
+******************
+- this will act as parent element for the jsx element and we can give key prop for this.
