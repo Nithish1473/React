@@ -117,13 +117,26 @@
 
 // ! hooks example
 
- import React from 'react'
- import UseEffectEx from './hookexamples/UseEffectEx';
+//  import React from 'react'
+//  import UseEffectEx from './hookexamples/UseEffectEx';
+
+// const App = () => {
+//   return (
+//     <div>
+//       <UseEffectEx/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+import React from 'react'
+import RefExamples from './hookexamples/RefExamples'
 
 const App = () => {
   return (
     <div>
-      <UseEffectEx/>
+     < RefExamples/>
     </div>
   )
 }
